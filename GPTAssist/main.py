@@ -13,10 +13,11 @@ from .ingest import Ingest
 from .engine import takeCommand, speak
 
 class PersonalGPT(Ingest):
-    """_summary_
+    """
+    A class that encapsulates a personalized conversational AI based on different language models.
 
     Args:
-        Ingest (_type_): _description_
+        Ingest: Base class for data ingestion.
     """
     def __init__(self):
         super(Ingest,self).__init__()

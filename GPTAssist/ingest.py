@@ -29,15 +29,17 @@ class Ingest:
                 self.embeddings = HuggingFaceInstructEmbeddings(model_name=EMBEDDINGS_MODEL_NAME)
         
     def load_single_document(self, file_path: str) -> List[Document]:
-        """Loads single document at a time
+        """
+        Load a single document at a time.
+
         Args:
-            file_path (str): Take filepath, where the file is that you want to load
+            file_path (str): Filepath of the document.
 
         Raises:
             ValueError: If file not found or file extension not supported
 
         Returns:
-            List[Document]: Content of the file
+            List[Document]: Content of the file as a list of documents.
         """
         ext = "." + file_path.rsplit(".", 1)[-1]
         if ext in LOADER_MAP:

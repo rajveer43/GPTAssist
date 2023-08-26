@@ -10,6 +10,9 @@ from .main import PersonalGPT
 
 
 def wishme():
+    """
+    Greets the user based on the current time and introduces itself.
+    """
     speak("Hello Sir,")
     hour = int(datetime.datetime.now().hour)
 
@@ -41,7 +44,12 @@ yes = ["yes", "yup", "yeah", "sure", "ok", "why not"]
 
 
 def call(query):
-    # This is the main executable function
+    """
+    Processes the user's query and performs relevant actions.
+
+    Args:
+        query (str): User's input query.
+    """
 
     if "wishme" in query:
         wishme()
@@ -131,6 +139,6 @@ if __name__ == "__main__":
     wishme()
     call(takeCommand("Ask me Something, Master"))
 # This whole program takes lot of time to write and frutefully execute.
-# I am Swarnodip Nag, a programmer like you.
+# I am Rajveer Rathod, a programmer like you.
 # This file is to dedicate all of you in the world for their education purpose and research purpose only.
 # Thank you. Keep upgrading and have fun ;)
