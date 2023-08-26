@@ -52,7 +52,9 @@ def call(query):
         speak("loading your files now")
         gpt = PersonalGPT()
         gpt.from_my_docs()
-    elif ("search my files now" in query) or ("serach in gpt" in query):
+    elif ("search my files now" in query) or (
+        "serach in gpt" in query
+    ):
         gpt.ask_query()
 
     elif "wikipedia" in query:

@@ -4,4 +4,11 @@ from .env_vars import *
 from .ingest import Ingest
 from .Jarvis import call, wishme
 
-__all__ = ["PersonalGPT", "speak", "takeCommand", "Ingest", "call", "wishme"]
+__all__ = [
+    "PersonalGPT",
+    "speak",
+    "takeCommand",
+    "Ingest",
+    "call",
+    "wishme",
+]
