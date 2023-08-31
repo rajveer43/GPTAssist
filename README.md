@@ -13,7 +13,7 @@ This project stands on the shoulders of giants:
 **Chroma**: Enhancing the visual appeal and user experience.
 **SentenceTransformers**: Adding a layer of context and understanding to responses.
 
-But that's not all! With support for OpenAI's GPT3, GPT4 models, and Cohere, PersonalGPT opens up a world of possibilities.
+But that's not all! With support for OpenAI's *GPT3, GPT4 models, and Cohere* **GPTAssist** opens up a world of possibilities.
 
 ##Inspired from PrivateGPT
 
@@ -31,9 +31,10 @@ or Linux and Mac aficionados:
 ```
 # Setting Environment Variables
 
-Open the `PersonalGPT/env_vars.py`. Customize your assistant's behavior by tweaking the `env_vars.py` file. From the model type to voice preferences and API keys, you're in control!
+- Open the `PersonalGPT/env_vars.py`. 
+- Customize your assistant's behavior by tweaking the `env_vars.py` file. From the model type to voice preferences and API keys, you're in control!
 
-and edit the variables appropriately in the `env_vars.py` file.
+
 
 ```
 MODEL_TYPE: supports LlamaCpp, GPT4All, OpenAI & Cohere
