@@ -49,52 +49,73 @@ VOICE_REC_ENGINE=SpeechRecognition
 API_KEY=OpeAI or Cohere API Key
 ```
 
-## Instructions for ingesting your own dataset
+# Ingesting Your Own Dataset
 
-Put any and all your files into the `source_documents` directory.
+To make your PersonalGPT assistant smarter, you can feed it your own dataset. Follow these steps:
 
-The supported extensions are:
+1. **Prepare Your Files**: Gather the documents you want to include in your dataset. Supported file formats are:
 
-   - `.csv`: CSV,
-   - `.docx`: Word Document,
-   - `.doc`: Word Document,
-   - `.enex`: EverNote,
-   - `.eml`: Email,
-   - `.epub`: EPub,
-   - `.html`: HTML File,
-   - `.md`: Markdown,
-   - `.msg`: Outlook Message,
-   - `.odt`: Open Document Text,
-   - `.pdf`: Portable Document Format (PDF),
-   - `.pptx`: PowerPoint Document,
-   - `.ppt`: PowerPoint Document,
-   - `.txt`: Text file (UTF-8),
-   - `.xls`: Excel Spreadsheet
-   - `.xlsx`: Excel Spreadsheet
+    - `.csv`: CSV files
+    - `.docx`, `.doc`: Word Documents
+    - `.enex`: EverNote
+    - `.eml`: Email
+    - `.epub`: EPub
+    - `.html`: HTML Files
+    - `.md`: Markdown
+    - `.msg`: Outlook Messages
+    - `.odt`: Open Document Text
+    - `.pdf`: Portable Document Format (PDF)
+    - `.pptx`, `.ppt`: PowerPoint Documents
+    - `.txt`: Text files (UTF-8)
+    - `.xls`, `.xlsx`: Excel Spreadsheets
 
-Give the following command to ingest all the data.
+2. **Place Files in Directory**: Move all these files into the `source_documents` directory.
 
-# Run PersonalGPT
-On Windows:
-```shell
+3. **Ingest the Data**: To incorporate your files into PersonalGPT's knowledge base, use the following command:
+
+    On Windows:
+    ```shell
     python run_PersonalGPT.py
-```
-On Linux / Mac:
-```shell
+    ```
+
+    On Linux / Mac:
+    ```shell
     python3 run_PersonalGPT.py
-```
-### Now Give Voice commands whatever you use
-```shell
-open browser
-load my files
-ask gpt
-tell me a joke
-open youtube
-```
-and many more
+    ```
 
-This module is free to use, modify, share
+# Giving Voice Commands
 
-Contribution is open for everyone, if you find some issue feel free to pull an Issue request or you've fixed this then do a PR
+Now, let's dive into interacting with your PersonalGPT assistant using voice commands. Just speak naturally and watch the magic happen!
 
-Thank You, for reading this.
+1. **Open Browser**: Want to open a browser window? Simply say:
+    ```
+    open browser
+    ```
+
+2. **Load My Files**: To instruct the assistant to load your files, say:
+    ```
+    load my files
+    ```
+
+3. **Ask GPT**: Need answers or information? Use the command:
+    ```
+    ask gpt
+    ```
+
+4. **Tell Me a Joke**: In the mood for some humor? Try:
+    ```
+    tell me a joke
+    ```
+
+5. **Open YouTube**: Want to watch videos? Just say:
+    ```
+    open youtube
+    ```
+
+... and many more commands that make your interactions with PersonalGPT productive and enjoyable!
+
+## Open for Contributions
+
+This module is not just a piece of code; it's a community effort. Feel free to use, modify, and share it. If you come across any issues, don't hesitate to open an Issue request. And if you're the fixer, don't hold back from submitting a Pull Request. Together, let's make PersonalGPT even better.
+
+Thank you for taking the time to explore this project and read through these instructions. Your journey with PersonalGPT begins here!
