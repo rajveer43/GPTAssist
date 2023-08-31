@@ -1,23 +1,37 @@
-# PersonalGPT
-Your own GPT-powered Personal Assistant to whom you can ORDER or INSTRUCT to do some task or search for something using your VOICE commands.
-Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
--Also Supports OpenAI's GPT3, GPT4 model, Cohere.
+# GPTAssist
 
-This project is Highly Inspired by [privateGPT](https://github.com/imartinez/privateGPT) for GPT assistance making but this project uses [DeepLake VectorStores](https://github.com/activeloopai/deeplake) to store your dataset/files.
+
+Introducing GPTAssist, your very own virtual assistant that comes to life with the power of voice commands! Imagine a world where tasks get accomplished and questions get answered just by the sound of your voice. Built using an ensemble of cutting-edge technologies, including [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), Chroma, and the incredible [SentenceTransformers](https://www.sbert.net/)., this project redefines the way you interact with technology.
+
+## The Power Behind GPTAssist
+
+This project stands on the shoulders of giants:
+
+**LangChain**: Laying the foundation for seamless communication between you and your assistant.
+**GPT4All**: Fueling your assistant's intelligence with advanced language processing capabilities.
+**LlamaCpp**: Making the magic happen with lightning-fast text processing.
+**Chroma**: Enhancing the visual appeal and user experience.
+**SentenceTransformers**: Adding a layer of context and understanding to responses.
+
+But that's not all! With support for OpenAI's GPT3, GPT4 models, and Cohere, PersonalGPT opens up a world of possibilities.
+
+##Inspired from PrivateGPT
+
+Inspired by the remarkable [privateGPT](https://github.com/imartinez/privateGPT) project, PersonalGPT takes assistance-making to a whole new level. While drawing inspiration, this project also introduces a unique twist by utilizing [DeepLake VectorStores](https://github.com/activeloopai/deeplake) to efficiently store and manage your dataset and files. It's innovation upon innovation!
 
 # Installing dependencies
 
-On Windows:
+Install the necessary dependencies. If you're on Windows, open your command shell and type:
 ```shell
     pip install -r requirements.txt
 ```
-On Linux / Mac:
+or Linux and Mac aficionados:
 ```
-    pip3 install -r requirements.txt
+   pip3 install -r requirements.txt
 ```
 # Setting Environment Variables
 
-Open the `PersonalGPT/env_vars.py`
+Open the `PersonalGPT/env_vars.py`. Customize your assistant's behavior by tweaking the `env_vars.py` file. From the model type to voice preferences and API keys, you're in control!
 
 and edit the variables appropriately in the `env_vars.py` file.
 
