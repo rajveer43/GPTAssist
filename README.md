@@ -15,7 +15,7 @@ This project stands on the shoulders of giants:
 
 But that's not all! With support for OpenAI's *GPT3, GPT4 models, and Cohere* **GPTAssist** opens up a world of possibilities.
 
-##Inspired from PrivateGPT
+## Inspired from PrivateGPT
 
 Inspired by the remarkable [privateGPT](https://github.com/imartinez/privateGPT) project, PersonalGPT takes assistance-making to a whole new level. While drawing inspiration, this project also introduces a unique twist by utilizing [DeepLake VectorStores](https://github.com/activeloopai/deeplake) to efficiently store and manage your dataset and files. It's innovation upon innovation!
 
@@ -51,7 +51,7 @@ API_KEY=OpeAI or Cohere API Key
 
 ## Instructions for ingesting your own dataset
 
-Put any and all your files into the `source_documents` directory
+Put any and all your files into the `source_documents` directory.
 
 The supported extensions are:
 
