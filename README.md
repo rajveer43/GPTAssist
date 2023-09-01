@@ -116,6 +116,6 @@ Now, let's dive into interacting with your PersonalGPT assistant using voice com
 
 ## Open for Contributions
 
-This module is not just a piece of code; it's a community effort. Feel free to use, modify, and share it. If you come across any issues, don't hesitate to open an Issue request. And if you're the fixer, don't hold back from submitting a Pull Request. Together, let's make PersonalGPT even better.
+This module is not just a piece of code; it's a community effort. Feel free to use, modify, and share it. If you come across any issues, don't hesitate to open an Issue request. And if you're the fixer, don't hold back from submitting a Pull Request. Together, let's make GPTAssist even better.
 
-Thank you for taking the time to explore this project and read through these instructions. Your journey with PersonalGPT begins here!
+Thank you for taking the time to explore this project and read through these instructions. Your journey with GPTAssist begins here!
